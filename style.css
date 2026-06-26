@@ -1235,4 +1235,17 @@ h1 {
   .portfolio-photo-grid img {
     height: 430px;
   }
+}/* Fix homepage title on mobile */
+
+@media (max-width: 700px) {
+  .hero-photo-text h1 {
+    font-size: clamp(2.2rem, 11vw, 4rem);
+    line-height: 1;
+    letter-spacing: 0.04em;
+    word-break: normal;
+  }
+
+  .hero-photo-text {
+    width: 92vw;
+  }
 }
