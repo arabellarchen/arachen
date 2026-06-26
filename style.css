@@ -1237,15 +1237,15 @@ h1 {
   }
 }/* Fix homepage title on mobile */
 
-@media (max-width: 700px) {
+/* Mobile homepage title */
+@media (max-width: 768px) {
   .hero-photo-text h1 {
-    font-size: clamp(2.2rem, 11vw, 4rem);
-    line-height: 1;
-    letter-spacing: 0.04em;
-    word-break: normal;
+    font-size: 2rem !important;
+    line-height: 1.05;
+    letter-spacing: 0.02em;
   }
 
   .hero-photo-text {
-    width: 92vw;
+    width: 95%;
   }
 }
