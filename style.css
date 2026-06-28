@@ -1327,6 +1327,14 @@ h1 {
     height: auto !important;
     display: block;
     object-fit: cover;
-    object-position: center center !important;
+    object-position: 45% center !important;
   }
+}@media (max-width: 850px) {
+
+  .about-hero-text h1{
+    font-size: 1.75rem !important;
+    line-height: 1.05;
+    letter-spacing: 0;
+  }
+
 }
