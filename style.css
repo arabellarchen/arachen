@@ -1248,4 +1248,43 @@ h1 {
   .hero-photo-text {
     width: 95%;
   }
+}/* Fix About page on mobile */
+
+@media (max-width: 850px) {
+  .about-hero-new {
+    margin: 24px 4vw 50px;
+    padding: 36px 6vw;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-hero-text {
+    text-align: center;
+  }
+
+  .about-hero-text h1 {
+    text-align: center;
+  }
+
+  .about-hero-photo {
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  .about-hero-photo img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
+
+  .about-story-new {
+    text-align: center;
+  }
+
+  .about-card,
+  .about-details {
+    text-align: center;
+  }
 }
