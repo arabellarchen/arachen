@@ -1306,4 +1306,27 @@ h1 {
     object-fit:cover;
   }
 
+}/* Force About photo centered on mobile */
+
+@media (max-width: 850px) {
+  .about-hero-new {
+    overflow: hidden;
+  }
+
+  .about-hero-photo {
+    width: 100% !important;
+    max-width: 420px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-self: center !important;
+    transform: none !important;
+  }
+
+  .about-hero-photo img {
+    width: 100% !important;
+    height: auto !important;
+    display: block;
+    object-fit: cover;
+    object-position: center center !important;
+  }
 }
